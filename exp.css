@@ -1,0 +1,130 @@
+.exp-container{
+        grid-column: 1/-1;
+        max-width: 1200px;
+        padding: 40px 20px;
+        margin: 0 auto;
+        display: grid;
+        padding: 0px;
+        grid-template-columns: 1fr 2fr;
+        gap: 100px ;   
+       
+       padding-top: 8rem;
+       padding-right: 4rem;
+       padding-bottom: 8rem;
+       position: relative;
+       
+
+       
+        
+}
+
+.exp-container::before{
+    content: url("/assets/Group\ 11.png");
+    position: absolute;
+    bottom: -70px;
+    left: 50px;
+    
+   
+}
+
+.exp{
+    background-color: #141414;
+    color: #fff;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    
+    
+   }
+
+
+.exp .subtitulo{
+    font-size: 8rem;
+    word-break: break-all;
+    text-transform: uppercase;
+    max-width: 4ch;
+    line-height: 1;
+    align-self:start;
+    grid-row: span 2;
+    color: #000;
+    justify-self: center;
+}
+
+.exp-p img{
+    display: inline-block;
+    
+}
+
+.exp-p{
+    margin-top: 0.4rem;
+    font-size: 1.6rem;
+}
+
+.exp-p strong{
+    color:#42A7DF;
+}
+
+.exp-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+    
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+    grid-template-rows: auto auto;
+    align-content: center;
+}
+
+.cards li{
+    height: 100px;
+    width: 157px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #090909;
+    position: relative;
+    transition: 0.3s;
+}
+
+.cards li::before{
+    content: "";
+    left: -2px;
+    top: 20px;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(180deg, #032f9c 0%, #5082fe 100%);
+    position: absolute;
+
+}
+
+
+
+.cards li h4{
+    color: #42A7DF;
+font-family: Fira Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+margin-bottom: 0;
+margin-left: 14px;
+}
+
+.cards li p{
+    color: #A5A5A5;
+font-family: Fira Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 5;
+margin-left: 14px;
+}
+
+.iphone{
+    max-width: 80%;
+}
