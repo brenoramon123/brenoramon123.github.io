@@ -7,10 +7,18 @@ nav{
     padding: 40px 20px;
     margin: 0 auto;
     padding-top: 0.8rem;
-    
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
     padding-bottom: 0.8rem;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.10);
 }
 
+main{
+    margin-top: 2rem;
+}
 
 nav ol{
     display: flex;
