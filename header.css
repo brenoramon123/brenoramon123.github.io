@@ -1,4 +1,5 @@
-nav{
+.menu{
+  
     max-width: 1500px;
     display: flex;
     justify-content: space-between;
@@ -6,18 +7,30 @@ nav{
     flex-wrap: wrap;
     padding: 40px 20px;
     margin: 0 auto;
+    justify-content: space-between;
     padding-top: 0.8rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 100vw;
-    position: fixed;
+    
+    
+ 
     padding-bottom: 0.8rem;
-    z-index: 999;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.10);
+    
 }
+
+.menu-container{
+   position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    z-index: 999;
+    height: auto;
+    
+
+}
+
 
 main{
     margin-top: 2rem;
+    
 }
 
 nav ol{

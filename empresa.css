@@ -22,11 +22,12 @@ section {
   max-width: 4ch;
   line-height: 1;
   align-self:start;
+  font-weight: bold;
   color: #000;
   justify-self: center;
 }
  
-}
+
 
 .empresa-titulo{
   font-weight: bold;

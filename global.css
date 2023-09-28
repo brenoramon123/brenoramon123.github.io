@@ -2,21 +2,22 @@ body{
     font-family: "Fira Sans",Arial, sans-serif;
     margin: 0px;
     color: #141414;
-    display: grid;
     align-items: center;  
     align-content: center;
     justify-content: center;
     padding: 0;
+    
+    position: relative;
 }
 
-h1, h2, h3, p{
-    margin: 0px;
-    
+h1, h2, h3, p,a,nav{
+    margin: 0px; 
+    padding: 0;
 }
 
 html{
     padding: 0px;
-    margin: 0px;
+    margin-top: 0px;
 }
 footer{
     padding: 0px;
@@ -33,6 +34,7 @@ img{
     display: block;
 }
 
+
 a{
     text-decoration: none;
 }
@@ -48,5 +50,6 @@ a{
 }
 
 main{
+    margin-top: 0;
     padding: 0;
 }
