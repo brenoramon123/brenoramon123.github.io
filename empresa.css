@@ -14,21 +14,19 @@ section {
 .experiencia .subtitulo {
   font-size: 10rem;
   line-height: 1.33;
-  margin-bottom: 60px;
+  margin-top: 90px;
   max-width: 50ch;
   font-size: 8rem;
   word-break: break-all;
   text-transform: uppercase;
   max-width: 4ch;
   line-height: 1;
-  align-self:start;
   font-weight: bold;
-  color: #000;
+  color: #fc4;
   justify-self: center;
+
 }
  
-
-
 .empresa-titulo{
   font-weight: bold;
 }
@@ -36,6 +34,11 @@ section {
 .experiencia-texto strong {
   color: #032F9C;
 }
+
+.experiencia-texto{
+  margin-bottom: 2rem;
+}
+
 
 .empresa {
   display: grid;
