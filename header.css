@@ -35,6 +35,35 @@ nav ol{
     flex-wrap: wrap;
 }
 
+nav ol a{
+    position: relative;
+    text-align: left;
+}
+
+nav ol li{
+    
+}
+
+nav ol a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    background-color: #032F9C;
+    transition: .3s;
+}
+
+
+nav ol a:hover:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: #032F9C;
+}
+
 .nome{
     font-weight: 700;
     color: black;
