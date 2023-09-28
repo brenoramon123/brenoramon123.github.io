@@ -17,21 +17,16 @@
 }
 
 .menu-container{
-   position: absolute;
     height: 100px;
     width: 100%;
-    background-color: blue;
     z-index: 999;
     height: auto;
-    
+    display: block;
 
 }
 
 
-main{
-    margin-top: 2rem;
-    
-}
+
 
 nav ol{
     display: flex;
