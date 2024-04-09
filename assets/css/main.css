@@ -1681,6 +1681,7 @@ input, select, textarea {
 	width: 100%;
 	height: 100%;
 	z-index: 2;
+	
 }
 
 /* Ensure elements before the background have higher z-index */
@@ -1717,5 +1718,5 @@ ul.icons,
 
 /* Optionally hide the after pseudo-element of the background */
 #bg:after {
-	display: none;
+	display: flex;
 }
