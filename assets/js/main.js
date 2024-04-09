@@ -71,7 +71,7 @@
 
 		// Methods.
 			$main._show = function(id, initial) {
-
+				particlesJS.load('particles-container', 'particles.json');
 				var $article = $main_articles.filter('#' + id);
 
 				// No such article? Bail.
