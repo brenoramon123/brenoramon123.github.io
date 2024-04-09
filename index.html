@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload" id="particles-js">
+	<body class="is-preload" >
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Header -->
@@ -93,17 +93,20 @@
 			<script src="assets/js/main.js"></script>
 	</body>
 		<!-- BG -->
-			<div id="bg"></div>
+		<div id="bg">
+			<div id="particles-js"></div>
+		</div>
 
 		<!-- Scripts -->
+			<script type="text/javascript" src="assets/js/particles.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="./particles.js"></script>
-			<script src="./app.js"></script>
+			<script type="text/javascript">
+				particlesJS.load('particles-js', 'assets/config/particles-js.json', function() {});
+			</script>
 
-
-	
+	</body>
 </html>
