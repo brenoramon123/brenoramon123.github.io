@@ -201,11 +201,12 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			overflow: hidden;
-    		text-overflow: ellipsis;
+			
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 			max-width:min-content;
+			overflow: hidden;
+    		text-overflow: ellipsis;
 		}
 
 	h1 {

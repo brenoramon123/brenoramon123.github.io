@@ -79,6 +79,9 @@
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 (_size(element-margin) * 1) 0;
+			max-width:min-content;
+			overflow: hidden;
+    		text-overflow: ellipsis;
 		}
 	}
 
